@@ -1,0 +1,24 @@
+---
+extends: "tslint:recommended"
+rules:
+  interface-name:
+    - true
+    - never-prefix
+  no-console:
+    - true
+    - debug
+    - info
+    - time
+    - timeEnd
+    - trace
+  quotemark:
+    - true
+    - single
+
+  # negations
+  arrow-parens: false
+  max-classes-per-file: false
+  no-empty: false
+  object-literal-sort-keys: false
+  trailing-comma: false
+  variable-name: false
